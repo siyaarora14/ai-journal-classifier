@@ -1,0 +1,9 @@
+[
+    {
+        "timestamp": "2025-12-07 15:29:14",
+        "raw_text": "i love coffee \ud83e\udd29",
+        "cleaned_text": "i love coffee excited",
+        "tag": "Excited",
+        "classified_text": "Excited"
+    }
+]

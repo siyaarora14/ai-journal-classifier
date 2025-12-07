@@ -35,7 +35,8 @@ def add_entry(raw_text, cleaned_text, tag, timestamp):
         "timestamp": timestamp,
         "raw_text": raw_text,
         "cleaned_text": cleaned_text,
-        "tag": tag
+        "tag": tag,
+        "classified_text": tag
     }
 
     entries.append(entry)

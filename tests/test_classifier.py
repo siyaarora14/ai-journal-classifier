@@ -7,3 +7,8 @@ class FakePipeline:
 def test_classification(monkeypatch):
     monkeypatch.setattr("core.classifier.zsPipeline", FakePipeline())
     assert classify_text("i feel great") == "Positive"
+
+def test_empty_string_handling(monkeypatch):
+    monkeypatch.setattr("core.classifier.zsPipeline", FakePipeline())
+    assert classify_text("") == "Neutral"
+    assert classify_text("   ") == "Neutral"

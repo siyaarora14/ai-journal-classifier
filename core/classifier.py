@@ -11,6 +11,10 @@ def classify_text(cleaned_text):
     - The model compares the text against predefined candidate labels.
     - multi_label=False makes sure that only the highest-scoring label is returned and not multiple labels.
     """
+    # Handle empty or whitespace-only strings
+    if not cleaned_text or not cleaned_text.strip():
+        return "Neutral"
+    
     result = zsPipeline(
         cleaned_text,
         candidate_labels=labels,

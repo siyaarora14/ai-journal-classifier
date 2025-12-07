@@ -1,0 +1,53 @@
+[
+  {
+    "text": "I am crushing it at work",
+    "expected": "Positive",
+    "description": "Positive context - succeeding/excelling"
+  },
+  {
+    "text": "The workload is crushing me",
+    "expected": "Negative",
+    "description": "Negative context - overwhelmed by work"
+  },
+  {
+    "text": "I'm killing it today!",
+    "expected": "Positive",
+    "description": "Positive slang - doing very well"
+  },
+  {
+    "text": "This deadline is killing me",
+    "expected": "Stressed",
+    "description": "Negative context - stressed by deadline"
+  },
+  {
+    "text": "I'm dying to see that movie",
+    "expected": "Excited",
+    "description": "Positive idiom - very eager/excited"
+  },
+  {
+    "text": "I'm dying from exhaustion",
+    "expected": "Stressed",
+    "description": "Negative context - extremely tired"
+  },
+  {
+    "text": "That's sick!",
+    "expected": "Positive",
+    "description": "Positive slang - means awesome/cool"
+  },
+  {
+    "text": "I feel sick",
+    "expected": "Negative",
+    "description": "Negative context - unwell"
+  },
+  {
+    "text": "This is fire 🔥",
+    "expected": "Excited",
+    "description": "Positive slang with emoji"
+  },
+  {
+    "text": "I'm on fire at work",
+    "expected": "Positive",
+    "description": "Positive idiom - performing exceptionally"
+  }
+]
+
