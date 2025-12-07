@@ -1,4 +1,4 @@
-from models import get_zero_shot_classifier
+from core.models import get_zero_shot_classifier
 
 # load zero-shot classification pipeline once for efficiency
 zsPipeline = get_zero_shot_classifier()
