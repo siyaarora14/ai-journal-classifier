@@ -1,5 +1,5 @@
 # Overview
-I chose project option 1 which is a command-line interface journaling tool that classifies the emotion that best captures a journal entry the user inputs using zero-shot text classification. Users can:
+This is a command-line interface journaling tool that classifies the emotion that best captures a journal entry the user inputs using zero-shot text classification. Users can:
 - Add new journal entries “--add”
 - Retrieve the last 3 entries “--last”
 - Receive a classification tag; for example: Positive, Stressed, Excited, etc.
